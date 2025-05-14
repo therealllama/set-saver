@@ -23,7 +23,7 @@ By downloading and using SetSaver, you accept these terms and waive any claim ag
 
 ## 🚀 Installation Guide
 
-1. Go to the [Releases](https://github.com/lodovicoazzini/set-saver-releases/releases) section.
+1. Go to the [Releases](https://github.com/therealllama/set-saver/releases) section.
 2. Download the latest version for your system.
 3. Open the installation file and follow the prompts to run SetSaver.
 
