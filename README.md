@@ -1,4 +1,4 @@
-# 🎧 SetSaver - Releases
+# 🎧 SetSaver
 
 **SetSaver** is a desktop app for DJs to **download, organize, and manage their music sets offline**.
 
