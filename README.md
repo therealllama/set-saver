@@ -23,11 +23,31 @@ By downloading and using SetSaver, you accept these terms and waive any claim ag
 
 ## 🚀 Installation Guide
 
-1. Go to the [Releases](https://github.com/therealllama/set-saver/releases) section.
+1. Go to the [Releases](https://github.com/lodovicoazzini/set-saver-releases/releases) section.
 2. Download the latest version for your system.
 3. Open the installation file and follow the prompts to run SetSaver.
 
----
+> **Important for macOS users:**
+>
+> Since SetSaver is distributed outside of the official App Store, macOS may block the app from launching. To bypass this:
+>
+> 1. Open the **Terminal**.
+>
+> 2. Type or copy-paste the following command:
+>
+>    ```bash
+>    xattr -cr 
+>    ```
+>
+> 3. **Drag and drop the SetSaver app into the Terminal window** to automatically fill in the app path.
+>
+>    Alternatively, you can manually enter the path. For example:
+>
+>    ```bash
+>    xattr -cr /Applications/Set\ Saver.app
+>    ```
+>
+> This command clears the security attributes, allowing macOS to launch the app.---
 
 ## 🛠️ How to Use
 
