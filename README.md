@@ -21,6 +21,12 @@ By downloading and using SetSaver, you accept these terms and waive any claim ag
 
 ---
 
+## 🖥️ System Requirements
+
+- **macOS 13 (Ventura) or newer** is required to run SetSaver.
+
+---
+
 ## 🚀 Installation Guide
 
 1. Go to the [Releases](https://github.com/lodovicoazzini/set-saver-releases/releases) section.
