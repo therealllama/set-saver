@@ -29,7 +29,7 @@ By downloading and using SetSaver, you accept these terms and waive any claim ag
 
 ## 🚀 Installation Guide
 
-1. Go to the [Releases](https://github.com/lodovicoazzini/set-saver-releases/releases) section.
+1. Go to the [Releases](https://github.com/therealllama/set-saver/releases) section.
 2. Download the latest version for your system.
    - For macOS, the installation file will look like: `Set-Saver-1.0.0-arm64.dmg`.
 3. Open the installation file and follow the prompts to run SetSaver.
