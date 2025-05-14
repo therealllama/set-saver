@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 The Real Llama
+Copyright (c) [YEAR] [YOUR NAME OR ORGANIZATION]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,6 +11,23 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+**Additional Clauses:**
+
+1. **Liability & Indemnification**  
+   In no event shall the authors, contributors, or copyright holders be liable
+   for any claim, damages, or other liability, whether in an action of contract,
+   tort, or otherwise, arising from, out of, or in connection with the Software
+   or the use or other dealings in the Software.  
+   The user assumes all responsibility and risk for the use of this Software.  
+   You agree to indemnify and hold harmless the authors and contributors from
+   any claims arising out of your use of the Software.
+
+2. **Copyright Enforcement**  
+   Unauthorized use, reproduction, or distribution of the Software without
+   adhering to the license terms will be considered a violation of copyright law.  
+   The authors reserve the right to take legal action against parties that violate
+   the terms of this license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
