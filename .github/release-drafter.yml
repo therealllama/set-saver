@@ -1,0 +1,32 @@
+name-template: "SetSaver v$NEXT_PATCH_VERSION"
+tag-template: "v$NEXT_PATCH_VERSION"
+
+categories:
+  - title: "Features"
+    labels:
+      - "feature"
+    change-template: "- 🚀 $TITLE (#$NUMBER)"
+  - title: "Bug Fixes"
+    labels:
+      - "bug"
+    change-template: "- 🐞 $TITLE (#$NUMBER)"
+  - title: "Known Issues"
+    labels:
+      - "known-issue"
+    change-template: "- 🚧 $TITLE (#$NUMBER)"
+
+template: |
+  ## Release Notes – SetSaver $NEXT_PATCH_VERSION ($DATE)
+
+  ### Features
+  $CHANGES_BY_LABEL:feature
+
+  ### Bug Fixes
+  $CHANGES_BY_LABEL:bug
+
+  ### Known Issues
+  $CHANGES_BY_LABEL:known-issue
+
+  ### Additional Notes (optional)
+  - 📦 Dependencies updates, security patches, or backend refactors.
+  - 🗑️ Deprecated features (if applicable).
