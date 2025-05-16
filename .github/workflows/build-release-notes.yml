@@ -28,4 +28,4 @@ jobs:
             ]
         env:
           ISSUES_REPOSITORY_TOKEN: ${{ secrets.LODOVICOAZZINI_SETSAVER_READ_ISSUES }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.THEREALLLAMA_SETSAVER_WRITE_CONTENT }}
