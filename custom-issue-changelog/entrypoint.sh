@@ -15,10 +15,6 @@ if [ -z "$MILESTONE_VERSION" ]; then
   MILESTONE_VERSION="${GITHUB_REF#refs/tags/}"
 fi
 
-echo "Using repository: $REPO"
-echo "Milestone version: $MILESTONE_VERSION"
-echo "Label configuration: $LABEL_CONFIG_JSON"
-
 echo "## Changelog for v$MILESTONE_VERSION" > changelog.md
 echo "" >> changelog.md
 
@@ -48,4 +44,13 @@ for i in $(seq 0 $(($LABEL_COUNT - 1))); do
   echo "" >> changelog.md
 done
 
+# Output the generated changelog
 cat changelog.md
+
+# Now re-authenticate for Repo A (release edit) explicitly using GITHUB_TOKEN
+echo "$GITHUB_TOKEN" | gh auth login --with-token
+
+echo "Updating the release body of tag $MILESTONE_VERSION..."
+gh release edit "$MILESTONE_VERSION" --repo "$GITHUB_REPOSITORY" --notes-file changelog.md
+
+echo "✅ Release body successfully updated in Repo A!"
