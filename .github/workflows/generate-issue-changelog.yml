@@ -31,4 +31,7 @@ jobs:
               }
             ]
         env:
+          # Provide REPO_B_TOKEN for fetching issues from repo B
           REPO_B_TOKEN: ${{ secrets.LODOVICOAZZINI_SETSAVER_READ_ISSUES }}
+          # Provide GITHUB_TOKEN for editing the release in repo A (optional but explicit)
+          GITHUB_TOKEN: ${{ secrets.THEREALLLAMA_SETSAVER_WRITE_CONTENT }}
