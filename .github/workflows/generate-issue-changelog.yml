@@ -1,4 +1,4 @@
-name: Generate Custom Issue Changelog
+name: Generate Release Notes
 
 on:
   release:
@@ -11,8 +11,8 @@ jobs:
   build_changelog:
     runs-on: ubuntu-latest
     steps:
-      - name: Run release-notes-automator from 'main'
-        uses: your-org/release-notes-automator@main
+      - name: Run release-notes-automator
+        uses: lodovicoazzini/release-notes-automator@main
         with:
           repo: 'lodovicoazzini/set-saver' # The repository where your issues and milestones live (Repo B)
           label_config: |
