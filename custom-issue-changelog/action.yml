@@ -9,7 +9,7 @@ inputs:
     description: "JSON array of label config with order, templates and section titles"
     required: true
   milestone_version:
-    description: "Version/milestone name (defaults to tag name without 'v')"
+    description: "Version/milestone name (defaults to tag name)"
     required: false
     default: ''
 runs:

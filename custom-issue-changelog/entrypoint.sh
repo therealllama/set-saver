@@ -12,9 +12,12 @@ else
 fi
 
 if [ -z "$MILESTONE_VERSION" ]; then
-  TAG_NAME="${GITHUB_REF#refs/tags/}"
-  MILESTONE_VERSION="${TAG_NAME#v}"
+  MILESTONE_VERSION="${GITHUB_REF#refs/tags/}"
 fi
+
+echo "Using repository: $REPO"
+echo "Milestone version: $MILESTONE_VERSION"
+echo "Label configuration: $LABEL_CONFIG_JSON"
 
 echo "## Changelog for v$MILESTONE_VERSION" > changelog.md
 echo "" >> changelog.md
