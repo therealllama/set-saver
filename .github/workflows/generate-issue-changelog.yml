@@ -1,0 +1,34 @@
+name: Generate Custom Issue Changelog
+
+on:
+  release:
+    types:
+      - created
+      - published
+
+jobs:
+  build_changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run custom issue changelog builder
+        uses: ./custom-issue-changelog
+        with:
+          repo: 'lodovicoazzini/set-saver' # If different repo, else omit
+          label_config: |
+            [
+              {
+                "label": "feature",
+                "template": "- 🚀 $TITLE",
+                "section_title": "Features"
+              },
+              {
+                "label": "bug",
+                "template": "- 🐛 $TITLE",
+                "section_title": "Bug Fixes"
+              }
+            ]
+        env:
+          REPO_B_TOKEN: ${{ secrets.REPO_B_ACCESS_TOKEN }}
