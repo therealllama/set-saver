@@ -31,4 +31,4 @@ jobs:
               }
             ]
         env:
-          REPO_B_TOKEN: ${{ secrets.REPO_B_ACCESS_TOKEN }}
+          REPO_B_TOKEN: ${{ secrets.LODOVICOAZZINI_SETSAVER_READ_ISSUES }}
