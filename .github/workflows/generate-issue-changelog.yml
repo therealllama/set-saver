@@ -3,29 +3,18 @@ name: Generate Custom Issue Changelog
 on:
   release:
     types:
-      - published       # When publishing the release (including draft published)
-      - prereleased     # Pre-release created or published
-      - edited          # When editing the release
+      - published
+      - edited
+      - prereleased
 
 jobs:
   build_changelog:
     runs-on: ubuntu-latest
     steps:
-      # Ensure the latest code is checked out (very important!)
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # Optional safety check: Skip execution if the release is still a draft (even when 'edited' event fires)
-      - name: Check if release is a draft (skip if true)
-        if: ${{ github.event.release.draft }}
-        run: |
-          echo "This is still a draft release. Skipping changelog generation."
-          exit 0
-
-      - name: Run custom issue changelog builder
-        uses: ./custom-issue-changelog
+      - name: Run release-notes-automator from 'main'
+        uses: your-org/release-notes-automator@main
         with:
-          repo: 'lodovicoazzini/set-saver'
+          repo: 'lodovicoazzini/set-saver' # The repository where your issues and milestones live (Repo B)
           label_config: |
             [
               {
@@ -40,7 +29,5 @@ jobs:
               }
             ]
         env:
-          # Token with read access to Repo B (lodovicoazzini/set-saver)
-          REPO_B_TOKEN: ${{ secrets.LODOVICOAZZINI_SETSAVER_READ_ISSUES }}
-          # Token with write access to Repo A (therealllama/set-saver)
-          GITHUB_TOKEN: ${{ secrets.THEREALLLAMA_SETSAVER_WRITE_CONTENT }}
+          ISSUES_REPOSITORY_TOKEN: ${{ secrets.LODOVICOAZZINI_SETSAVER_READ_ISSUES }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
