@@ -3,8 +3,10 @@ name: Generate Custom Issue Changelog
 on:
   release:
     types:
-      - created
-      - published
+      - created         # Draft created
+      - edited          # Draft edited or published release edited
+      - published       # When publishing the release
+      - prereleased     # Pre-release created or published
 
 jobs:
   build_changelog:
