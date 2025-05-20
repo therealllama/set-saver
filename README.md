@@ -6,18 +6,21 @@ This repository provides **official installation files** for each version of Set
 
 ---
 
-## ⚠️ Disclaimer & Legal Notice
+## ⚖️ Legal Disclaimer
 
-SetSaver is a tool designed to help DJs manage and organize their music collections for personal and offline use. While it provides functionality to download tracks, **the application does not directly download music from Spotify or similar streaming services**. Instead, it relies on publicly accessible sources, which may not always guarantee successful downloads for all tracks.
+**Effective Date:** May 1, 2025
 
-By using SetSaver, you acknowledge and agree to the following:
+Set Saver is a personal-use desktop application developed to help DJs and music professionals manage their playlists and organize music content locally. It allows users to connect their personal Spotify and Deezer accounts to access their own playlists and stream content through the respective services.
 
-* **Responsibility**: The developer of SetSaver **does not condone, promote, or encourage copyright infringement**. You, as the user, are solely responsible for ensuring that you comply with all applicable laws and copyright regulations when using this software.
-* **Intended Use**: SetSaver is provided for **personal and educational purposes only**. Any use of this tool for unauthorized distribution, commercial exploitation, or infringement of intellectual property rights is strictly prohibited.
-* **No Liability**: The developer **disclaims all liability** for any misuse of the application, including but not limited to, unauthorized downloading, sharing, or distribution of copyrighted material.
-* **Fair Use**: Users are expected to verify whether their usage falls under **fair use, personal use exemptions, or requires appropriate licensing** from rights holders.
+Set Saver is an independent tool and is **not affiliated with, endorsed by, or sponsored by Spotify, Deezer, or any other streaming platform**. All trademarks, logos, and brand names are the property of their respective owners and are used strictly for identification purposes.
 
-By downloading and using SetSaver, you accept these terms and waive any claim against the developer arising from the misuse of this software.
+Set Saver **does not download or extract music directly from Spotify**. Spotify integration is limited to user authentication and playlist metadata access. Deezer integration enables users to stream their authorized content for personal session use only.
+
+The application may include functionality that allows for the recording of streamed audio. **Users are solely responsible** for ensuring their use of such features complies with all applicable copyright laws and the terms of service of any connected platforms.
+
+The developer of Set Saver does **not condone, support, or assume liability** for any use of the software that violates copyright law or third-party service agreements. This software is provided **“as is,” without warranty of any kind**, and the developer shall not be held liable for any direct or indirect damages resulting from its use.
+
+By using Set Saver, you agree to take full responsibility for your actions and to use the software in compliance with all applicable laws.
 
 ---
 
