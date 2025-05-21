@@ -18,17 +18,17 @@ jobs:
               {
                 "label": "feature",
                 "template": "- 🚀 $TITLE",
-                "section_title": "Features"
+                "section_title": "Cool New Stuff"
               },
               {
                 "label": "bug",
                 "template": "- 🐛 $TITLE",
-                "section_title": "Bug Fixes"
+                "section_title": "Oops... Fixed It"
               }
               {
                 "label": "maintenance",
                 "template": "- 🚧 $TITLE",
-                "section_title": "Maintenance"
+                "section_title": "Under the Hood"
               }
             ]
         env:
