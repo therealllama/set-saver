@@ -12,7 +12,7 @@ jobs:
       - name: Run release-notes-automator
         uses: lodovicoazzini/release-notes-automator@main
         with:
-          repo: 'lodovicoazzini/set-saver' # The repository where your issues and milestones live (Repo B)
+          repo: 'lodovicoazzini/set-saver' # The repository where your issues and milestones live
           label_config: |
             [
               {
@@ -24,6 +24,11 @@ jobs:
                 "label": "bug",
                 "template": "- 🐛 $TITLE",
                 "section_title": "Bug Fixes"
+              }
+              {
+                "label": "maintenance",
+                "template": "- 🚧 $TITLE",
+                "section_title": "Maintenance"
               }
             ]
         env:
