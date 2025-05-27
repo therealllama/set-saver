@@ -24,7 +24,7 @@ jobs:
                 "label": "bug",
                 "template": "- 🐛 $TITLE",
                 "section_title": "Oops... Fixed It"
-              }
+              },
               {
                 "label": "maintenance",
                 "template": "- 🚧 $TITLE",
