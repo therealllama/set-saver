@@ -26,16 +26,47 @@ By using Set Saver, you agree to take full responsibility for your actions and t
 
 ## 🖥️ System Requirements
 
+### macOS
 - **macOS 13 (Ventura) or newer** is required to run SetSaver.
+
+### Windows  
+- **Windows 10 or newer** (64-bit) is required to run SetSaver.
+
+### Linux
+- **Ubuntu 18.04 LTS or newer**, or equivalent Linux distribution with glibc 2.17+
+- **64-bit architecture** required
 
 ---
 
 ## 🚀 Installation Guide
 
 1. Go to the [Releases](https://github.com/therealllama/set-saver/releases) section.
-2. Download the latest version for your system.
-   - For macOS, the installation file will look like: `Set-Saver-1.0.0-arm64.dmg`.
-3. Open the installation file and follow the prompts to run SetSaver.
+2. Download the latest version for your system:
+
+### macOS Installation
+- Download the file that looks like: `Set-Saver-1.0.0-arm64.dmg`
+- Open the `.dmg` file and drag SetSaver to your Applications folder
+- **🔒 Security Notice**: If you see "App can't be opened because it is from an unidentified developer":
+  1. **Right-click** on SetSaver in Applications folder
+  2. Select **"Open"** from the context menu  
+  3. Click **"Open"** in the security dialog
+  4. SetSaver will now launch normally in the future
+
+### Windows Installation  
+- Download the file that looks like: `Set-Saver-Setup-1.0.0.exe`
+- **🔒 Security Notice**: If you see "Windows protected your PC":
+  1. Click **"More info"**
+  2. Click **"Run anyway"**
+- Follow the setup wizard
+- SetSaver will be available in your Start Menu and Desktop
+
+### Linux Installation
+- **For Ubuntu/Debian users**: Download the `.deb` file (e.g., `set-saver_1.0.0_amd64.deb`)
+  - Install with: `sudo dpkg -i set-saver_1.0.0_amd64.deb`
+  - Or double-click the file to install via Software Center
+- **For other Linux distributions**: Download the `.AppImage` file (e.g., `Set-Saver-1.0.0.AppImage`)
+  - Make it executable: `chmod +x Set-Saver-1.0.0.AppImage`
+  - Run directly: `./Set-Saver-1.0.0.AppImage`
 
 ## 🛠️ How to Use
 
