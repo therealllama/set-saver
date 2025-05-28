@@ -52,6 +52,28 @@ By using Set Saver, you agree to take full responsibility for your actions and t
   3. Click **"Open"** in the security dialog
   4. SetSaver will now launch normally in the future
 
+> **Important for macOS users:**
+>
+> Since SetSaver is distributed outside of the official App Store, macOS may block the app from launching. To bypass this:
+>
+> 1. Open the **Terminal**.
+>
+> 2. Type or copy-paste the following command:
+>
+>    ```bash
+>    xattr -cr 
+>    ```
+>
+> 3. **Drag and drop the SetSaver app into the Terminal window** to automatically fill in the app path.
+>
+>    Alternatively, you can manually enter the path. For example:
+>
+>    ```bash
+>    xattr -cr /Applications/Set\ Saver.app
+>    ```
+>
+> This command clears the security attributes, allowing macOS to launch the app.---
+
 ### Windows Installation  
 - Download the file that looks like: `Set-Saver-Setup-1.0.0.exe`
 - **🔒 Security Notice**: If you see "Windows protected your PC":
