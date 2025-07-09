@@ -27,7 +27,7 @@ By using Set Saver, you agree to take full responsibility for your actions and t
 ## 🖥️ System Requirements
 
 ### macOS
-- **macOS 13 (Ventura) or newer** is required to run SetSaver.
+- **macOS 14 or newer** is required to run SetSaver.
 
 ### Windows  
 - **Windows 10 or newer** (64-bit) is required to run SetSaver.
